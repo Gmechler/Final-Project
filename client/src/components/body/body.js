@@ -1,7 +1,7 @@
 import React from "react";
 import "./body.css";
 
-function Footer() {
+function Body() {
   return (
     <div className="row" className="body">
       <div className="col"></div>
@@ -9,4 +9,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Body;

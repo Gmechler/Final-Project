@@ -3,12 +3,19 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // pages go here
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
+import Body from "./components/body/body";
 import ShoppingList from "./pages/ShoppingList";
 
 export default function App() {
   return (
     <>
-      <ShoppingList />
+      <Header />
+      <Body>
+        <ShoppingList />
+      </Body>
+      <Footer />
     </>
   );
 }

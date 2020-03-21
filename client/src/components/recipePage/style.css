@@ -1,0 +1,10 @@
+.recipeImg {
+    width: 440px;
+    height: 300px;
+}
+
+.recipeIng {
+    border: 1px solid black;
+    height:300px;
+    overflow: auto;
+}

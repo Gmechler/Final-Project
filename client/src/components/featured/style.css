@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+  }
+
+.searchImg {
+    border:1px solid black;
+    width: 220px;
+    height: 150px;
+    margin: auto;    
+    display: block;
+}
+
+.searchDesc {
+    height: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

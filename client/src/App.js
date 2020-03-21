@@ -1,8 +1,10 @@
 import React from 'react';
+import SearchResults from './pages/search-results';
+import Recipe from './pages/recipie';
 
 function App() {
   return (
-    <div className="App">WELCOME TO THE FINAL PROJECT!
+    <div className="App">
     </div>
   );
 }

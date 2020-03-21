@@ -1,8 +1,14 @@
-import React from 'react';
+import React from "react";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
+import Body from "./components/body/body";
 
 function App() {
   return (
-    <div className="App">WELCOME TO THE FINAL PROJECT!
+    <div>
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }

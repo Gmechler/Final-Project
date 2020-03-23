@@ -22,13 +22,13 @@ const fadeProperties = {
   
 const Featured = () => {
       return (
-    <div className="col-lg-7">
-        <h2 className="text-center pb-4">Featured Recipes</h2>
+    <div className="col-lg-8 mt-4">
+        <h2 className="text-center pb-4 featuredTitle">Featured Recipes</h2>
     <Fade {...fadeProperties}>
       <div className="each-fade row justify-content-center">
         <div className='col-6 hidden-sm-down'>
           <div className='row pl-2 justify-content-center'>
-            <h4 className='col-12'>Blue Burger</h4>
+            <h4 className='col-12 featuredSubTitle'>Blue Burger</h4>
             <p className="col-12 line-clamp searchDesc">It is a long established fact that a reader will be distracted by the
              readable content of a page when looking at its layout. The point of using Lorem Ipsum is that
               it has a more-or-less normal distribution of letters, as opposed to using 'Content here, 
@@ -41,13 +41,13 @@ const Featured = () => {
         <div className="col-lg-4 px-0">
           <img className="searchImg" src={fadeImages[0]} />
         </div>
-        <button className='col-4 mt-3'>Learn More</button>
+        <button className='col-3 mt-3 featuredButton'>Learn More</button>
       </div>
       <div className="each-fade row justify-content-center">
         <div className='col-6 hidden-sm-down'>
           <div className='row pl-2 justify-content-center'>
-            <h4 className='col-12'>Red Burger</h4>
-            <p className="col-12 line-clamp">It is a long established fact that a reader will be distracted by the
+            <h4 className='col-12 featuredSubTitle'>Red Burger</h4>
+            <p className="col-12 line-clamp searchDesc">It is a long established fact that a reader will be distracted by the
              readable content of a page when looking at its layout. The point of using Lorem Ipsum is that
               it has a more-or-less normal distribution of letters, as opposed to using 'Content here, 
               content here', making it look like readable English. Many desktop publishing packages and 
@@ -59,13 +59,13 @@ const Featured = () => {
         <div className="col-lg-4 px-0">
           <img className="searchImg" src={fadeImages[1]} />
         </div>
-        <button className='col-4 mt-3'>Learn More</button>
+        <button className='col-3 mt-3 featuredButton'>Learn More</button>
       </div>
       <div className="each-fade row justify-content-center">
         <div className='col-6 hidden-sm-down'>
           <div className='row pl-2 justify-content-center'>
-            <h4 className='col-12'>Green Burger</h4>
-            <p className="col-12 line-clamp">It is a long established fact that a reader will be distracted by the
+            <h4 className='col-12 featuredSubTitle'>Green Burger</h4>
+            <p className="col-12 line-clamp searchDesc">It is a long established fact that a reader will be distracted by the
              readable content of a page when looking at its layout. The point of using Lorem Ipsum is that
               it has a more-or-less normal distribution of letters, as opposed to using 'Content here, 
               content here', making it look like readable English. Many desktop publishing packages and 
@@ -77,7 +77,7 @@ const Featured = () => {
         <div className="col-lg-4 px-0">
           <img className="searchImg" src={fadeImages[2]} />
         </div>
-        <button className='col-4 mt-3'>Learn More</button>
+        <button className='col-3 mt-3 featuredButton'>Learn More</button>
       </div>
     </Fade>
     </div>

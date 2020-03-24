@@ -1,0 +1,44 @@
+.recipeImg {
+    width: 400px;
+    height: 260px;
+    border: 1px solid #99bab2;
+}
+
+.recipeTitle {
+    color: #ab573f;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.recIngTitle {
+    color: #6797a8;
+}
+
+.recipeIng {
+    width: 200px;
+    height:220px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    color: rgb(105, 105, 105);
+}
+
+p {
+    color: rgb(105, 105, 105); 
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

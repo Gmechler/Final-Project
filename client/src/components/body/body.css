@@ -1,0 +1,16 @@
+.body {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 100%;
+  background-image: url("./cooking-pattern.jpg");
+  height: 100%;
+}
+
+.content {
+  border-left: 1px solid #99bab2; 
+  border-right: 1px solid #99bab2;
+  background-color: white;
+  height: 100%;
+}

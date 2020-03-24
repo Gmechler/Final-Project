@@ -1,0 +1,51 @@
+.header {
+  height: 130px;
+  /* background-image: url("./cooking-pattern.jpg"); */
+  background-image: url("./geometric-leaves.png");
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+}
+
+.navigation {
+  display: inline-block;
+  color: grey;
+  float: right;
+  color: #6797a8;
+  margin-right: 25px;
+  padding-top: 25px;
+}
+
+a {
+  color: #6797a8;
+}
+
+a:hover {
+  color: #d1b758;
+}
+.title {
+  text-align: center;
+  color: #ab573f;
+  font-size: 30px;
+  padding-top: 35px;
+  margin-left: 350px;
+}
+
+.search {
+  margin-left: 25px;
+  margin-top: -40px;
+}
+
+.searchbar {
+  background-color: white;
+}
+
+.searchbutton {
+  background-color: #d1b758;
+  border: none;
+  color: white;
+  margin-left: 5px;
+}
+
+.searchbutton:hover {
+  background-color: #99bab2;
+}

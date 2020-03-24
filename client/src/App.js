@@ -14,9 +14,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <Body>
-        <ShoppingList />
-      </Body>
+      <Body />
       <Footer />
     </>
   );

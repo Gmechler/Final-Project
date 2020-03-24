@@ -1,6 +1,5 @@
 const express = require("express");
 
-const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
 const db = require("./models");
@@ -12,7 +11,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 //adds the routes
-app.use(routes);
+require("./routes/user-api-route");
 //sets up the connection and makes the database
 //if force: true is present will always overide your current database
 db.sequelize.sync({ force: true }).then(function() {

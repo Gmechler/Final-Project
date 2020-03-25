@@ -8,9 +8,9 @@ function Header() {
       <div className="row" className="header">
         <div className="col" className="navigation">
           <Nav className="mr-auto">
-            <Nav.Link href="#home">Plan to Make</Nav.Link>
-            <Nav.Link href="#features">Shopping List</Nav.Link>
-            <Nav.Link href="#pricing">Favorites</Nav.Link>
+            <Nav.Link href="/">Plan to Make</Nav.Link>
+            <Nav.Link href="/shopping-list">Shopping List</Nav.Link>
+            <Nav.Link href="/favorites">Favorites</Nav.Link>
             <Nav.Link href="#something">Add a Recipe</Nav.Link>
           </Nav>
         </div>

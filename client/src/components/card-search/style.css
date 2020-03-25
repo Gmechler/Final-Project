@@ -1,0 +1,21 @@
+.searchRecDesc { 
+    height: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.featuredResButton {
+    background-color: #d1b758;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.featuredResButton:hover {
+    background-color: #99bab2;
+}
+
+.recResTitle {
+    color: #6797a8;
+}
+

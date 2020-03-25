@@ -41,7 +41,7 @@ const Featured = () => {
         <div className="col-lg-4 px-0">
           <img className="searchImg" src={fadeImages[0]} />
         </div>
-        <button className='col-3 mt-3 featuredButton'>Learn More</button>
+        <button className='w-25 mt-3 featuredButton'>Learn More</button>
       </div>
       <div className="each-fade row justify-content-center">
         <div className='col-6 hidden-sm-down'>

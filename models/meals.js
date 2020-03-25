@@ -1,11 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
   //sets up the meals of the week table in the db
   const Meals = sequelize.define("Meals", {
-    id: {
-      type: DataTypes.INTEGER,
-      autoIncrement: true,
-      primaryKey: true
-    },
     name: {
       type: DataTypes.STRING,
       allowNull: false,

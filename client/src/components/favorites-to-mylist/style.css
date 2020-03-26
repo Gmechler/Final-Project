@@ -1,0 +1,19 @@
+.toBeList {
+    height: 400px;
+    border: 1px solid #99bab2
+}
+
+.toBeTitle {
+    color:#ab573f;
+}
+
+.toBeButton {
+    background-color: #d1b758;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.toBeButton:hover {
+    background-color: #99bab2;
+}

@@ -1,41 +1,41 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 .featuredTitle {
-    color: #ab573f;
+  color: #ab573f;
 }
 
 .featuredSubTitle {
-    color: #6797a8;
+  color: #6797a8;
 }
 
 .line-clamp {
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;  
-  }
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
 
 .searchImg {
-    border:1px solid #99bab2;
-    width: 220px;
-    height: 150px;
-    margin: auto;    
-    display: block;
+  border: 1px solid #99bab2;
+  width: 220px;
+  height: 150px;
+  margin: auto;
+  display: block;
 }
 
 .searchDesc {
-    height: 100px;
-    text-overflow: ellipsis;
-    overflow: hidden;
+  height: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .featuredButton {
-    background-color: #d1b758;
-    border: none;
-    color: white;
-    margin-left: 5px;
-    border-radius: 4px;
+  background-color: #d1b758;
+  border: none;
+  color: white;
+  margin-left: 5px;
+  border-radius: 4px;
 }
-  
+
 .featuredButton:hover {
-    background-color: #99bab2;
-  }
+  background-color: #99bab2;
+}

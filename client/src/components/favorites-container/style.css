@@ -1,0 +1,8 @@
+.favContainer {
+    height: 500px;
+    overflow: auto;
+}
+
+.favTitle {
+    color:#ab573f;
+}

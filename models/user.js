@@ -1,11 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
   const User = sequelize.define("User", {
     //sets up the table that will hold all of the users
-    id: {
-      type: DataTypes.INTEGER,
-      autoIncrement: true,
-      primaryKey: true
-    },
     username: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -36,7 +31,7 @@ module.exports = function(sequelize, DataTypes) {
   };
   //states the the user will have many list items for their shopping list
   User.associate = function(models) {
-    User.hasMany(models.Lists, {
+    User.hasMany(models.List, {
       onDelete: "cascade"
     });
   };

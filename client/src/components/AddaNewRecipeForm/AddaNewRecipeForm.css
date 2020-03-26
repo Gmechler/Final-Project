@@ -1,0 +1,30 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+div {
+}
+
+h2 {
+  color: #ab573f;
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+.name {
+  color: #6797a8;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.submitbutton {
+  background-color: #d1b758;
+  border: none;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.submitbutton:hover {
+  background-color: #99bab2;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import "./body.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import RecipePage from "../../pages/recipie";
+import RecipePage from "../../pages/recipe";
 import SearchResults from "../../pages/search-results";
 import Favorites from "../../pages/favorites";
 import ShoppingList from "../../pages/ShoppingList";

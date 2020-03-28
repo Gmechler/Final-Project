@@ -11,7 +11,7 @@ function Header() {
             <Nav.Link href="/">Plan to Make</Nav.Link>
             <Nav.Link href="/shopping-list">Shopping List</Nav.Link>
             <Nav.Link href="/favorites">Favorites</Nav.Link>
-            <Nav.Link href="#something">Add a Recipe</Nav.Link>
+            <Nav.Link href="/AddaNewRecipe">Add a Recipe</Nav.Link>
           </Nav>
         </div>
         <div className="col" className="title">

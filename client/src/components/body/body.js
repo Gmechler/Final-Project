@@ -5,19 +5,20 @@ import RecipePage from "../../pages/recipe";
 import SearchResults from "../../pages/search-results";
 import Favorites from "../../pages/favorites";
 import ShoppingList from "../../pages/ShoppingList";
+import AddNewRecipe from "../../pages/AddNewRecipe";
 
 function Body() {
   return (
     <Router>
-    <div className="row justify-content-center body">
-      <div className="col-10 content">
-        <Route exact path="/" component={SearchResults} />
-        <Route exact path="/search-results" component={SearchResults} />
-        <Route exact path="/favorites" component={Favorites} />
-        <Route exact path="/shopping-list" component={ShoppingList} />
-        {/* <Route path="/recipe" component={RecipePage} /> */}
+      <div className="row justify-content-center body">
+        <div className="col-10 content">
+          <Route exact path="/" component={SearchResults} />
+          <Route exact path="/search-results" component={SearchResults} />
+          <Route exact path="/favorites" component={Favorites} />
+          <Route exact path="/shopping-list" component={ShoppingList} />
+          <Route exact path="/AddaNewRecipe" component={AddNewRecipe} />
+        </div>
       </div>
-    </div>
     </Router>
   );
 }

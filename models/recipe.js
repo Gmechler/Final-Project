@@ -1,5 +1,12 @@
 module.exports = function(sequelize, DataTypes) {
   const Recipes = sequelize.define("Recipes", {
+    type: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        len: [1]
+      }
+    },
     description: {
       type: DataTypes.STRING,
       allowNull: false,

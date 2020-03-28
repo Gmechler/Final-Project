@@ -4,6 +4,7 @@
   background-image: url("./geometric-leaves.png");
   font-family: "Noto Sans JP", sans-serif;
   font-weight: bold;
+  box-shadow: 0 4px 2px -2px gray;
 }
 
 .navigation {

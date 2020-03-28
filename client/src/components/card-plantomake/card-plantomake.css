@@ -1,0 +1,31 @@
+.favRecDesc {
+  height: 120px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.favResButton {
+  background-color: #d1b758;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.favResButton:hover {
+  background-color: #99bab2;
+}
+
+.favDelButton {
+  background-color: #cc4646;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.favDelButton:hover {
+  background-color: #f37575;
+}
+
+.favResTitle {
+  color: #6797a8;
+}

@@ -8,7 +8,7 @@ function Header() {
       <div className="row" className="header">
         <div className="col" className="navigation">
           <Nav className="mr-auto">
-            <Nav.Link href="/">Plan to Make</Nav.Link>
+            <Nav.Link href="/PlanToMake">Plan to Make</Nav.Link>
             <Nav.Link href="/shopping-list">Shopping List</Nav.Link>
             <Nav.Link href="/favorites">Favorites</Nav.Link>
             <Nav.Link href="/AddaNewRecipe">Add a Recipe</Nav.Link>

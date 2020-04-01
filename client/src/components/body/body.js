@@ -6,6 +6,7 @@ import SearchResults from "../../pages/search-results";
 import Favorites from "../../pages/favorites";
 import ShoppingList from "../../pages/ShoppingList";
 import AddNewRecipe from "../../pages/AddNewRecipe";
+import PlanToMake from "../../pages/PlanToMake";
 
 function Body() {
   return (
@@ -17,6 +18,7 @@ function Body() {
           <Route exact path="/favorites" component={Favorites} />
           <Route exact path="/shopping-list" component={ShoppingList} />
           <Route exact path="/AddaNewRecipe" component={AddNewRecipe} />
+          <Route exact path="/PlanToMake" component={PlanToMake} />
         </div>
       </div>
     </Router>

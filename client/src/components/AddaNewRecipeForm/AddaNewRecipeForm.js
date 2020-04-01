@@ -9,19 +9,21 @@ function AddaNewRecipeForm() {
       <Form>
         <Form.Group controlId="exampleForm.ControlInput1">
           <Form.Label className="name">Title of Dish:</Form.Label>
-          <Form.Control type="email" placeholder="" />
+          <Form.Control className="bar" type="email" placeholder="" />
         </Form.Group>
         <Form.Group controlId="exampleForm.ControlTextarea1">
           <Form.Label className="name">Ingredients needed:</Form.Label>
-          <Form.Control as="textarea" rows="3" />
+          <Form.Control className="bar" as="textarea" rows="3" />
         </Form.Group>
         <Form.Group controlId="exampleForm.ControlTextarea1">
           <Form.Label className="name">Instructions:</Form.Label>
-          <Form.Control as="textarea" rows="3" />
+          <Form.Control className="bar" as="textarea" rows="3" />
         </Form.Group>
-        <Button className="submitbutton" variant="primary" type="submit">
-          Submit
-        </Button>
+        <div className="row justify-content-center no-gutters mt-2">
+          <Button className="submitbutton" variant="primary" type="submit">
+            Submit
+          </Button>
+        </div>
       </Form>
     </div>
   );
